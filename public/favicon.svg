@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9b7bff"/>
+      <stop offset="0.55" stop-color="#6c4dff"/>
+      <stop offset="1" stop-color="#3f8dff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.3" cy="0.22" r="0.8">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="0.6" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="64" y="64" width="896" height="896" rx="216" fill="url(#bg)"/>
+  <rect x="64" y="64" width="896" height="896" rx="216" fill="url(#glow)"/>
+  <g fill="none" stroke="#ffffff" stroke-linecap="round">
+    <path d="M232 512 C 312 352, 392 352, 472 512 S 632 672, 712 512 S 792 400, 812 440" stroke-width="64"/>
+    <path d="M232 352 C 312 262, 392 262, 472 352 S 632 442, 712 352" stroke-width="40" stroke-opacity="0.55"/>
+    <path d="M312 672 C 392 602, 472 602, 552 672 S 712 742, 792 672" stroke-width="40" stroke-opacity="0.55"/>
+    <path d="M392 792 C 452 752, 512 752, 572 792" stroke-width="28" stroke-opacity="0.3"/>
+  </g>
+</svg>

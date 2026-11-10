@@ -1,0 +1,23 @@
+[package]
+name = "driftwave"
+version = "1.0.0"
+description = "Driftwave - slowed + reverb desktop audio editor"
+authors = ["Driftwave"]
+edition = "2021"
+rust-version = "1.80"
+
+[lib]
+name = "driftwave_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+tauri = { version = "2", features = [] }
+tauri-plugin-dialog = "2"
+regex = "1"
+sha2 = "0.10"
+hex = "0.4"
